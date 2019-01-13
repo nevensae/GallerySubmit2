@@ -1,0 +1,102 @@
+main {
+	max-width: 650px;
+	margin: 80px auto 0 auto;
+}
+
+header {
+	display: block;
+	width: 100vw;
+	min-height: 20px;
+	background-color: $light-blue;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 10px 15px;
+}
+
+footer {
+	display: block;
+	width: 100vw;
+	min-height: 20px;
+	background-color: $light-blue;
+	color: $white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 10px 15px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	color: 	#FF252B;
+	font-size: 36px;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color: 	#C1FFB6;
+	border: 2px #FF252B;
+}
+
+p {
+	font-size: 	40px;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.logo {
+	height: 140px;
+	width: 	210px;
+	animation-name: changePosition;
+	animation: changePosition 5s infinite ease-in-out;
+	}
+
+@keyframes changePosition {
+    0%  {top: 0px;}
+  50%  {left: 400px;}
+  100% {left: 800px;}
+}
+/*CONTACT FORM*/
+/*.contactForm {
+	position: fixed;
+	top: 100px;
+	left: 500px;	
+}*/
+
+/* SLICK SLIDER */
+
+.slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
